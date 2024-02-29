@@ -1,7 +1,7 @@
 # TP_SDN
 Configuration du Routeur et des proxmox
 
-
+```
 Configuration du routeur : 
 
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
@@ -29,7 +29,7 @@ Configuration du routeur :
     inet6 fe80::20c:29ff:fe7e:99f7/64 scope link noprefixroute 
     
        valid_lft forever preferred_lft forever
-       
+```       
 
 
 Configuration de Firewalld : 
