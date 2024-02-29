@@ -10,6 +10,12 @@ Configuration du routeur :
     
     altname enp2s1
     
+    inet 1.1.1.1/24 scope global ens33
+    
+       valid_lft forever preferred_lft forever
+       
+
+    
 3: ens36: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
 
     link/ether 00:0c:29:7e:99:f7 brd ff:ff:ff:ff:ff:ff
