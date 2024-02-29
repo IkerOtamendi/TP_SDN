@@ -33,7 +33,7 @@ Configuration du routeur :
 
 
 Configuration de Firewalld : 
-
+```
 internal (active)
   target: default
   icmp-block-inversion: no
@@ -63,5 +63,4 @@ external (active)
   source-ports: 
   icmp-blocks: 
   rich rules:
-
-  
+```  
